@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/dannisse/CLionProjects/LeetCode_Practice -B/Users/dannisse/CLionProjects/LeetCode_Practice/cmake-build-debug
+  command = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/dannisse/CLionProjects/LeetCode-Practice/LeetCode_Practice -B/Users/dannisse/CLionProjects/LeetCode-Practice/LeetCode_Practice/cmake-build-debug
   description = Re-running CMake...
   generator = 1
 

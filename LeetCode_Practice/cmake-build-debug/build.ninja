@@ -36,7 +36,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/dannisse/CLionProjects/LeetCode_Practice/cmake-build-debug/
+cmake_ninja_workdir = /Users/dannisse/CLionProjects/LeetCode-Practice/LeetCode_Practice/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target LeetCode_Practice
 
@@ -46,7 +46,7 @@ cmake_ninja_workdir = /Users/dannisse/CLionProjects/LeetCode_Practice/cmake-buil
 
 build cmake_object_order_depends_target_LeetCode_Practice: phony || CMakeFiles/LeetCode_Practice.dir
 
-build CMakeFiles/LeetCode_Practice.dir/main.cpp.o: CXX_COMPILER__LeetCode_Practice_Debug /Users/dannisse/CLionProjects/LeetCode_Practice/main.cpp || cmake_object_order_depends_target_LeetCode_Practice
+build CMakeFiles/LeetCode_Practice.dir/main.cpp.o: CXX_COMPILER__LeetCode_Practice_Debug /Users/dannisse/CLionProjects/LeetCode-Practice/LeetCode_Practice/main.cpp || cmake_object_order_depends_target_LeetCode_Practice
   DEP_FILE = CMakeFiles/LeetCode_Practice.dir/main.cpp.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
   OBJECT_DIR = CMakeFiles/LeetCode_Practice.dir
@@ -73,7 +73,7 @@ build LeetCode_Practice: CXX_EXECUTABLE_LINKER__LeetCode_Practice_Debug CMakeFil
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/dannisse/CLionProjects/LeetCode_Practice/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/dannisse/CLionProjects/LeetCode-Practice/LeetCode_Practice/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -84,7 +84,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/dannisse/CLionProjects/LeetCode_Practice/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/dannisse/CLionProjects/LeetCode_Practice -B/Users/dannisse/CLionProjects/LeetCode_Practice/cmake-build-debug
+  COMMAND = cd /Users/dannisse/CLionProjects/LeetCode-Practice/LeetCode_Practice/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/dannisse/CLionProjects/LeetCode-Practice/LeetCode_Practice -B/Users/dannisse/CLionProjects/LeetCode-Practice/LeetCode_Practice/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -100,7 +100,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /Users/dannisse/CLionProjects/LeetCode_Practice/cmake-build-debug
+# Folder: /Users/dannisse/CLionProjects/LeetCode-Practice/LeetCode_Practice/cmake-build-debug
 
 build all: phony LeetCode_Practice
 
